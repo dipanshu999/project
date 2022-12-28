@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Bites</title>
+
+    <style>
+        nav {
+            display: flex;
+            background-color: rgb(18, 167, 26);
+            position: fixed;
+            width: 100%;
+            align-items: center;
+            top: 0;
+            left: 0;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+      nav  ul {
+            padding: 5px;
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        nav li {
+            /* margin:0px 0px 0px 30px; */
+            font-family: 'montserrat regular';
+            font-size: 20px;
+            margin-left: 46px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar ul :hover {
+            transform: scale(1.15);
+            transition: 0.27s;
+            font-weight: bold;
+        }
+
+        .logo {
+            border: solid white 2px;
+            border-radius: 50px;
+            margin-left: 800px;
+        }
+
+        .headline {
+            /* position: absolute; */
+            padding: 30px;
+            color: white;
+            box-sizing: border-box;
+            margin-top: 60px;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("bgr_food.png");
+            background-repeat: no-repeat;
+            background-size: 100%;  
+            z-index: -1;
+        }
+
+        .headline h1 {
+            text-align: center;
+            font-size: 50px;
+            font-family: 'fira sans';
+        }
+
+        .headline h4 {
+            text-align: center;
+            font-size: 15px;
+            padding-bottom: 40px;
+            font-family: 'montserrat light';
+            height: 30px;
+        }
+
+        .headline ul {
+            margin-left: 180px;
+        }
+
+        .headline li {
+            padding: 50px 0px 30px 0px;
+            font-size: 18px;
+            display: inline-block;
+            font-family: montserrat;
+            margin-left: 60px;
+            
+        }
+
+        .headline button {
+            margin-left: 550px;
+            padding: 15px 30px 15px 30px;
+            border-radius: 20px;
+            font-family: 'montserrat';
+            font-weight: bold;
+            font-size: 20px;
+            background-color: rgb(21, 168, 21);
+            color: white;
+            border: solid 1px rgba(0, 0, 0, 0.363);
+        }
+
+        .headline button:hover {
+            transform: scale(1.2);
+            transition: 0.4s;
+            cursor: pointer;
+        }
+
+    .dish{
+        background-color: yellow;
+    }    
+
+    </style>
+</head>
+
+<!-- ******************************************************************************************************************************* -->
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a target="_blank" href="https://www.amazon.com">Home</a></li>
+                <li><a target="_blank" href="https://www.amazon.com">AboutUs</a></li>
+                <li><a target="_blank" href="https://www.amazon.com">Contact</a></li>
+                <li><a target="_blank" href="https://www.amazon.com">Blog</a></li>
+            </ul>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzw8i3U7so_UapTWzGhzH1nzAgmABg_Wci4zsrlImMUQ&s"
+                alt="No image found" height="55px" width="55px" class="logo">
+        </nav>
+
+    </header>
+
+    <div class="headline">
+        <h1>ORDER HEALTHY INSTANTLY</h1>
+        <h4>from your favourite restaurant</h4>
+        <button>Order now</button>
+
+        <ul>
+            <li>- 24/7 delivery</li>
+            <li>- 200+ restaurants</li>
+            <li>- order with app</li>
+            <li>- fast delivery</li>
+        </ul>
+
+    </div>
+
+    <div class="dish">
+        <h1>ORDER VARIETY OF DISHES</h1>
+    </div>
+</body>
+</html>
